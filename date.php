@@ -11,7 +11,7 @@
 <body class="date">
 
   <div class="intro">
-      <button id="switchButton">Phrase pour un date</button>
+      <button id="switchButton">Excuse de retard</button>
   </div>
   <section>
     <div>
@@ -22,7 +22,7 @@
       <span></span>
       <span></span>
       <span></span>
-      Next
+      Suivant
     </a>
   </section>
 

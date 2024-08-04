@@ -11,18 +11,18 @@
 <body class="late">
 
   <div class="intro">
-      <button id="switchButton">Excuse de retard</button>
+      <button id="switchButton">Phrase de drague pour un date</button>
   </div>
   <section>
     <div>
-      <h2 id="excuse">Générateur de phrase pour un date</h2>
+      <h2 id="excuse">Générateur d'excuse de retard</h2>
     </div>
     <a id="neon" href="#">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
-      Next
+      Suivant
     </a>
   </section>
 

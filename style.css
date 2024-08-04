@@ -1,20 +1,63 @@
-.nice {
-    color: #FF4500;
-    background-color: #00eaff;
-}
-
-.dark {
-    background-color: #af0000;
-
-}
-
 body {
     color: #fcbe24;
     display: flex;
     flex-direction: column;
     background-color: #000;
+    margin: 0;
 }
 
+/* Index */
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.index div {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}
+
+.index a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+.index .right a:hover,
+.index .left a:hover {
+    color: orange;
+}
+
+.left {
+    border-right: 1px solid blue;
+}
+
+.right {
+    border-left: 1px solid red;
+}
+
+.left p,
+.right p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.left img,
+.right img {
+    display: block;
+}
+
+/* Date et Late */
 .intro {
     width: 100%
 }
@@ -31,7 +74,7 @@ div h2 {
     margin-bottom: 80px;
 }
 
-a {
+section a {
     position: absolute;
     padding: 25px 30px;
     color: #03e9f4;
@@ -43,17 +86,17 @@ a {
     margin-top: 80px;
 }
 
-a:hover {
+section a:hover {
     background: #03e9f4;
     color: #050801;
 }
 
-a span {
+section a span {
     position: absolute;
     display: block;
 }
 
-a span:nth-child(1) {
+section a span:nth-child(1) {
     top: 0;
     left: 0;
     width: 100%;
@@ -73,7 +116,7 @@ a span:nth-child(1) {
     }
 }
 
-a span:nth-child(2) {
+section a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -94,7 +137,7 @@ a span:nth-child(2) {
     }
 }
 
-a span:nth-child(3) {
+section a span:nth-child(3) {
     bottom: 0;
     right: 0;
     width: 100%;
@@ -115,7 +158,7 @@ a span:nth-child(3) {
     }
 }
 
-a span:nth-child(4) {
+section a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
