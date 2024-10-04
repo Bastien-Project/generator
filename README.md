@@ -1,0 +1,1 @@
+phrase générées par chatGPT
